@@ -1,0 +1,97 @@
+antes do java ser java era apenas uma ideia de um interpretador para trabalhar com diversos aparelhos eletrônicos (como video cassete, TV e aparelhos de TV a cabo)
+
+# Java e a internet 
+    Com o surgimento da internet, a Sun(empresa criadora da java) resolveu usar sua ideia(java) para rodar aplicações dentro dos browsers.
+    Grandes quantidades de sistemas operacionais e browsers.
+    Na epoca os browsers so usavam html.
+    
+    ## Problema historico:
+        como oferecer experiencias semelhantes para os users, com OS(operacional system) e navegadores diferentes?
+        A resposta do java foi separar o codigo da plataforma e usar em uma camada intermediaria.
+    
+    Java nasceu com um objetivo e foi lançado com outro, firmou-se como tecnologia de desenvolvimento de aplicações no lado servidor, e em 2009 a oracle comprou a Sun Microsystems e passou a cuidar do desenvolvimento da linguagem java.
+
+# Java e a JVM
+    ## JVM:
+        JAVA VIRTUAL MACHINE 
+        A maquina virtual é uma camada intermediaria entre o sistema operacional e a aplicação 
+        A aplicação se comunica apenas com a JVM
+        Entre a aplicação e o sistema operacional e hardware temos a JVM
+
+# Quando não existe uma maquina virtual
+    Linguagens como C ou Pascal, o codigo é compilado para uma plataforma especifica
+    Toda vez que a plataforma muda é necessario recompilar o codigo
+    As vezes é necessario ate alterar o codigo
+    - Interfaces graficas windows x linux
+    A aplicação fica atrelada a plataforma sobre a qual ela é executada
+
+# Bytecode
+    Bytecode é uma linguagem entendida pela JVM
+    A geração do Bytecode é feita atraves da compilação do codigo java
+    (foto em bytecode.PNG)
+    Ao mudar a plataforma, o bytecode não precisa ser alterado apenas a JVM(especifica para o OS) e a plataforma em si
+    *NÃO É QUALQUER PROGRAMA JAVMAS A Q VAI FUNCIONAR EM QUALQUER LUGAR SEM NENHUMA PREUCUPAÇÃO*
+
+# Vantagens da JVM
+    Isolamento total da aplicação
+    Como tudo passa pela JVM, é possivel obter metricas e trabalhar com otimização
+    Garbagge collection( em vez do dev liberar toda memoria usada pelos objetos o garbagge collection faz isso)
+    Principio WORA
+    -"Write Once, Run Anywhere"
+
+# A JVM é uma especificação
+    Diversas empresas Implementam a JVM
+    - Oracle, IBM, etc.
+    É possivel trocar de JVM sem a necessidade de recompilar os codigos das aplicações
+
+# A performance do java
+    A JVM usa dois elementos para otimizar a performance
+    - HotSpot
+        Indentifica codigo bastante executado
+    - JIT (Just in Time Compiler)
+        Compila o codigo indentificado pelo HotSpot para instruções nativas da plataforma
+    Mito da performance
+    - "Java é uma linguagem com baixa performance"
+    - Existem estudos que provam que o java pode ser mais rapido em algumas situações do que o C ou C++
+
+# Ramificações do java
+    Java SE (Standard Edition)
+    - Base do java
+    - Ambiente de execução e bibliotecas comuns
+    Java EE (Enterprise Edition)
+    - Aplicações corporativas e internet
+    Java ME (Micro Edition)
+    - Dispositivos moveis
+
+# Onde usar o Java
+    Aplicações de medio e grande porte
+    Aplicações que virão a se expandir no futuro
+    Ambientes heterogeneos
+# Onde não usar?
+    Aplicações com poucos devs, outras linguagens podem ser mais produtivas
+
+# Por que adotar o java?
+    Linguagem madura
+    Extensa lista de bibliotecas gratuitas
+    - Manipulação de XML
+    - Logging
+    - Manipuladores de texto
+    - Geração de relatorios
+    - etc.
+    Grande comunidade de devs
+    Documentação farta
+
+# JRE
+    Java Runtime Environment
+    JVM + bibliotecas
+    Utilizada para executar aplicações java
+
+# JDK
+    Java Development Kit
+    JRE + kit completo de desenvolvimento
+    Utilizado pelos devs para compilar e executar aplicações Java
+    Ferramenta mais conhecida: Javac que transforma em bytecode
+
+# Elementos da JRE e da JDK
+    (abrir elementos_jre_jdk.PNG)
+    ler de baixo para cima
