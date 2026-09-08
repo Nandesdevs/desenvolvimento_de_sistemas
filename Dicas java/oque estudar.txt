@@ -1,0 +1,33 @@
+o chat me disse: 
+
+ Domine os Fundamentos do Java (Sem Spring Boot por enquanto!)
+Tentar aprender Spring Boot sem saber a base do Java é um erro comum. Dedique sessões diárias de 30 a 60 minutos para estudar os seguintes tópicos, sempre digitando e testando cada código você mesmo
+:
+Lógica de Programação e Sintaxe Básica: Entenda como declarar variáveis, tipos de dados básicos e como o Java exibe dados na tela
+.
+Estruturas de Controle: Domine comandos de decisão (if, switch) e comandos de repetição (for, while)
+.
+Orientação a Objetos (POO): O Java é uma linguagem fortemente orientada a objetos
+. Você precisa compreender muito bem conceitos como Classes, Objetos, Construtores, Herança, Polimorfismo e Encapsulamento
+ (exatamente o que ajustamos no código do Aluno nas mensagens anteriores).
+Coleções de Dados: Aprenda a gerenciar conjuntos de dados na memória do computador usando listas e mapas através do Collections Framework do Java
+
+
+Dê os Primeiros Passos no Spring Boot
+Quando você se sentir confortável criando classes, loops e listas em Java, será a hora de entrar no Spring Boot. Ele é o framework backend mais popular do mundo, usado para construir APIs web e microsserviços robustos
+.
+O que ele faz: O Spring Boot remove o código repetitivo (boilerplate) e configura automaticamente servidores e conexões com o banco de dados
+.
+O que estudar nele:
+Como criar uma API REST básica usando as anotações do Spring
+.
+Como mapear as classes Java para as tabelas do banco de dados usando Hibernate/JPA
+.
+Como receber dados do front-end através de requisições HTTP (como GET para buscar dados e POST para cadastrar)
+.
+Como testar as respostas do seu Java backend enviando dados com ferramentas como o Postman
+
+O PROFESSOR ME DISSE PARA ESTUDAR:
+HTML/Css
+Java
+SpringBoot
